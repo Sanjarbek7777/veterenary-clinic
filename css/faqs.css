@@ -875,3 +875,12 @@ body{
   color: #ffffff;
 }
 
+.form-button:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.form-button:active{
+  opacity: 0.6;
+}
+
