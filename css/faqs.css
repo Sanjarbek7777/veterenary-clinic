@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Futura PT", "Arial", sans-serif;
+  src: url("../fonts/FuturaPT-Bold.woff2") format("woff2"),
+      url("../fonts/FuturaPT-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Futura PT", "Arial", sans-serif;
+  src: url("../fonts/FuturaPT-Light.woff2") format("woff2"),
+      url("../fonts/FuturaPT-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Futura PT", "Arial", sans-serif;
+  src: url("../fonts/FuturaPT-Medium.woff2") format("woff2"),
+      url("../fonts/FuturaPT-Medium.woff") format("woff");
+}
+
+html{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+::before,
+::after{
+  box-sizing: inherit;
+}
+
+
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "Futura PT";
+  background-color: #E5E5E5;
+  overflow-x: hidden;
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.container{
+  width: 100%;
+  max-width: 1260px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* MODAL */
+
+.modal{
+  background: #FFFFFF;
+  opacity: 0.9;
+}
