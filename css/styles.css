@@ -35,6 +35,7 @@ body{
   padding: 0;
   margin: 0;
   font-family: "Futura PT", "Arial", sans-serif;
+  background-clip: #E5E5E5;
   overflow-x: hidden;
   background-image: url(../img/bg.png);
   background-repeat: no-repeat;
