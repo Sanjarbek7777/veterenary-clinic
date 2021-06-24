@@ -682,9 +682,6 @@ body{
   display: block;
 }
 
-.modal-close{
-  display: none;
-}
 
 .modal-open .content-wrapper{
   animation-name: slide-down;
